@@ -68,7 +68,7 @@ The OS is mainly targeting the Swift Programming Language, which is a memory-saf
 
 ## AI/LLM
 
-Machine learning features are opt-in. We recognize they are powerful tools, but they should also be used when appropriate.
+Machine learning features are opt-in. We recognize they are powerful tools, but they should also be used when appropriate. They can be tightly woven into the OS and we will add security measures to prevent unauthorized behavior.
 
 ## Under the hood
 
