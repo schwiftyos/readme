@@ -11,7 +11,7 @@
   - [Permissions](#permissions)
 - [Security](#security)
 - [AI/LLM](#aillm)
-- [Under the hook](#under-the-hood)
+- [Under the hood](#under-the-hood)
 
 ## Philosophy
 
