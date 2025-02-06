@@ -37,11 +37,14 @@ Its free (and open source!).
 - Best Linux file system on the market
 - Elevated and streamlined developer experience
 - Application permissions
+- Can have multiple versions of the same program installed at the same time
 - Advanced System Search (similar to Spotlight on macOS)
-- Continuity with supporting systems
+- Continuity with other systems (sync calendars, contacts, messages, etc)
 - App Store
 - Widgets
 - Keyboard shortcuts
+- Decentralized services
+- Secure payment system
 - Opt-in machine learning features
 
 ## Decentralization
