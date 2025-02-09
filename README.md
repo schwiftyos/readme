@@ -76,10 +76,17 @@ Machine learning features are opt-in. We recognize they are powerful tools, but 
 ## Under the hood
 
 - File System: Undecided
-  - patched OpenZFS, Btrfs or ext4
-- Kernel: patched Arch Linux/FreeBSD
-  - Zircon was mentioned
-  - custom Swift kernel was mentioned
-- Display Server: Hyprland
-  - Swift UI library was mentioned
-  - Garuda Linux was mentioned
+  - Contenders
+    - OpenZFS
+    - Btrfs
+    - ext4
+- Kernel: Undecided
+  - Contenders:
+    - Arch Linux (patched)
+    - FreeBSD (patched)
+    - Zircon (patched?)
+    - custom Swift
+- Display Server: Undecided
+  - Contenders:
+    - Hyprland
+    - a Swift UI library
