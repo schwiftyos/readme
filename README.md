@@ -90,3 +90,5 @@ Machine learning features are opt-in. We recognize they are powerful tools, but 
   - Contenders:
     - Hyprland
     - a Swift UI library
+
+Garuda Linux was mentioned.
