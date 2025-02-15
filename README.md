@@ -76,21 +76,21 @@ Machine learning features are opt-in. We recognize they are powerful tools, but 
 ## Under the hood
 
 - File System: Undecided
-  - Contenders
+  - Contenders (listed by most likely to be chosen)
     - OpenZFS
-    - Btrfs
     - ext4
+    - Btrfs
 - Kernel: Undecided
-  - Contenders:
+  - Contenders (listed by most likely to be chosen)
     - Arch Linux (patched)
     - FreeBSD (patched)
-    - Zircon (patched?)
+    - Zircon (patched)
     - custom Swift
 - Display Server / Window Manager: Undecided
-  - Contenders:
-    - Hyprland
+  - Contenders (listed by most likely to be chosen)
     - KDE Plasma
     - XFCE
+    - Hyprland
     - a Swift UI library
 
 Garuda Linux was mentioned.
