@@ -86,9 +86,11 @@ Machine learning features are opt-in. We recognize they are powerful tools, but 
     - FreeBSD (patched)
     - Zircon (patched?)
     - custom Swift
-- Display Server: Undecided
+- Display Server / Window Manager: Undecided
   - Contenders:
     - Hyprland
+    - KDE Plasma
+    - XFCE
     - a Swift UI library
 
 Garuda Linux was mentioned.
