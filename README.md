@@ -67,11 +67,11 @@ Application and System Permissions will be a big part of this OS. This allows th
 
 ## Security
 
-The OS is mainly targeting the Swift Programming Language, which is a memory-safe language.
+The OS is mainly targeting the Swift Programming Language, which is a memory-safe language. The Permissions system helps to mitigate the interactions in the system when the programs are not functioning properly. 
 
 ## AI/LLM
 
-Machine learning features are opt-in. We recognize they are powerful tools, but they should also be used when appropriate. They can be tightly woven into the OS and we will add security measures to prevent unauthorized behavior.
+Machine learning features are opt-in. We recognize they are powerful tools, but they should also be used when appropriate. They can be tightly woven into the OS and we will add security measures to prevent unauthorized behavior. Additionally, we want to add handles to applications to simplify models instead of having them find where to click on the windows and helps hide unintentional data from being exposed by default
 
 ## Under the hood
 
