@@ -10,7 +10,7 @@
 - [Privacy](#privacy)
   - [Permissions](#permissions)
 - [Security](#security)
-- [AI/LLM](#aillm)
+- [Machine Learning Integrations](#aillm)
 - [Under the hood](#under-the-hood)
 
 ## Philosophy
@@ -65,13 +65,21 @@ See more about [permissions](#permissions).
 
 Application and System Permissions will be a big part of this OS. This allows the user full control over their system and to inform them about what programs have what permissions.
 
+> **Note:**
+>
+> You can help us work on this system at [`schwiftyos/schwifty-permmissions`](https://github.com/schwiftyos/schwifty-permmissions)
+
 ## Security
 
-The OS is mainly targeting the Swift Programming Language, which is a memory-safe language.
+The OS is mainly targeting the Swift Programming Language, which is a memory-safe language. The Permissions system prevents processes (and programs) to access unauthorized resources, in short sandboxing them to a user's preference.
 
-## AI/LLM
+> **Technical Note:**
+> 
+> Memory-safe languages may still encounter leaks and are not guaranteed to be free of data races and may overflow the allocated stack or memory heap. Memory Errors are rare but do exist and can happen.
 
-Machine learning features are opt-in. We recognize they are powerful tools, but they should also be used when appropriate. They can be tightly woven into the OS and we will add security measures to prevent unauthorized behavior.
+## Machine Learning Integrations <a name="aillm"></a>
+
+Machine learning features are opt-in. We recognize they are powerful tools, but they should also be used when appropriate. They can be tightly woven into the OS and we will add security measures to prevent unauthorized behavior. Additionally, we want to add accessible interfaces to applications to simplify and enhance model interactions and support general automations instead of having them find where to click on the screen hiding unintentional data from the models by default so that you don’t lose functionality from a supposedly unrelated feature being disabled.
 
 ## Under the hood
 
