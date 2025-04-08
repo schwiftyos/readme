@@ -10,7 +10,7 @@
 - [Privacy](#privacy)
   - [Permissions](#permissions)
 - [Security](#security)
-- [Machine Learning Integration](#aillm)
+- [Machine Learning Integrations](#aillm)
 - [Under the hood](#under-the-hood)
 
 ## Philosophy
@@ -64,6 +64,10 @@ See more about [permissions](#permissions).
 ### Permissions
 
 Application and System Permissions will be a big part of this OS. This allows the user full control over their system and to inform them about what programs have what permissions.
+
+> **Note:**
+>
+> You can help us work on this system at [`schwiftyos/schwifty-permmissions`](https://github.com/schwiftyos/schwifty-permmissions)
 
 ## Security
 
