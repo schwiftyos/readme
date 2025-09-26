@@ -99,7 +99,7 @@ Custom kernel written in Swift (heavily inspired by Arch Linux). Here is a list 
 - supports all major CPU architectures (x86, ARM, RISC-V)
 - cpu security mitigations
 - configurable "Everything is a file" (use RAM instead of disk to reduce disk writes)
-- enhanced networking privacy via iptables (think kernel-level adblock)
+- enhanced networking privacy via iptables (think adblock at the kernel level)
 - multi-kernel mode?
 
 ### Window Manager
