@@ -25,22 +25,25 @@ This OS will have a central system directory where builds, and their outputs, wi
 
 Native support for IoT, robotics, embedded.
 
+A custom IDE may be developed.
+
 ## Pricing
 
-Its free (and open source!).
+Forever free (and open source!).
 
 ## Features
 
-- Arch/FreeBSD based (best performance and control)
 - Open Source
 - Architecture agnostic
 - Best Linux file system on the market
+- System config file (think NixOS)
+- Use RAM instead of disk to reduce disk writes where applicable (not everywhere; ready-only mode?)
 - Elevated and streamlined developer experience
 - Application permissions
 - Can have multiple versions of the same program installed at the same time
 - Advanced System Search (similar to Spotlight on macOS)
 - Continuity with other systems (sync calendars, contacts, messages, etc)
-- App Store
+- Native Package Manager (+App Store)
 - Widgets
 - Keyboard shortcuts
 - Decentralized services
@@ -83,22 +86,24 @@ Machine learning features are opt-in. We recognize they are powerful tools, but 
 
 ## Under the hood
 
-- File System: Undecided
-  - Contenders (listed by most likely to be chosen)
-    - OpenZFS
-    - ext4
-    - Btrfs
-- Kernel: Undecided
-  - Contenders (listed by most likely to be chosen)
-    - Arch Linux (patched)
-    - FreeBSD (patched)
-    - Zircon (patched)
-    - custom Swift
-- Display Server / Window Manager: Undecided
-  - Contenders (listed by most likely to be chosen)
-    - KDE Plasma
-    - XFCE
-    - Hyprland
-    - a Swift UI library
+### File System
 
-Garuda Linux was mentioned.
+Undecided. Here is a list of most likely to being chosen:
+- OpenZFS
+- ext4
+- Btrfs
+
+### Kernel
+
+Custom kernel written in Swift (heavily inspired by Arch Linux). Here is a list of expected features:
+- supports all major CPU architectures (x86, ARM, RISC-V)
+- cpu security mitigations
+- configurable "Everything is a file" (use RAM instead of disk to reduce disk writes)
+- enhanced networking privacy via iptables (think adblock at the kernel level)
+- multi-kernel mode?
+
+### Window Manager
+
+Custom hybrid window manager written in Swift. Here is a list of expected features:
+- minimize, maximize, resize, close, fullscreen
+- multi-tasking
